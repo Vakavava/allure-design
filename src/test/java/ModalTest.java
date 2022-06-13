@@ -72,7 +72,7 @@ public class ModalTest {
         @Test
         @Severity(NORMAL)
         DisplayName("Элементы модального окна создания маршрута")
-        public void checkCheckBoxPackingWall(){
+        public void checkElementsModalPage(){
             step("При нажатии на город в правой части блока появляется список ПВЗ этого города.", () -> {
             });
             step("При нажатии на знак вопроса в блоке с ПВЗ появляется текстовая подсказка.", () -> {
